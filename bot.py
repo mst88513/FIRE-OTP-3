@@ -40,7 +40,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[logging.StreamHandler(sys.stdout)]
 )
-logger = logging.getLogger("Fire_VoltxBot")
+logger = logging.getLogger("DXA_VoltxBot")
 
 # Config Files
 PANELS_FILE = "panels.json"
@@ -112,15 +112,15 @@ admin_db = load_admin_db()
 # ----------------------------------------------------
 firebase_cred_dict = {
   "type": "service_account",
-  "project_id": "stexpremium-b76b8",
-  "private_key_id": "70c4c2ed4eea3463c9e544f76fb3953df78ab50b",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0eaZxLe8NTh9S\nvYiONUy6dT138LaKjhpx46d+ksp8A+uph86lNzpbbw2rLVKMqdcuXWDJd79fKJqC\n43a8DEEiHwoVQGw/yWckszZhBcG6gYy9Ojncch0DEfGpL07jCDNW54/2YKmAJnGY\n1Z2n9C66dJrBcntU70Fycm93qEnRVQ54++lyUgf7op6Bf3T9LxygQ/m2kTs22c5C\nEpDioSKqsfBWn/Ualg+6qUbCuKlCeeAARA9juJWpjXsWGvzW7wTnu7XcH9EMRM6l\nP91IsagWnBoKTTvnOfyUL2yBvWE2yoipx28KYfemfkD+9jyHiCPsHwxzhnCDHEZY\nCBsxwILDAgMBAAECggEABpjOoEedsqWFr04lb0VOoo0KQuDRf+tX10NUV+PzKftV\nkBC1xyiME68/YIRNvXSL3KAmCSBh3SGaHES0jjv/S8lJPhFWo5/45n+HFuf19sAE\nrkMyK637BBOR+xsOlv/oc/Chhc/cuSF3wdMi17vRrpf4RVSFhwJD372D+CJ2g7q4\niWBb8NWoIjvuYab3k8hVVQ34hS0ne43CQawxDV5+QR+Ctwb7vvbSzP603+zRRMV4\nU2+hl0g8pR3g1t0cH41ZmafPGaXoVgheZP3/qAgsGOcKL0byHZxB8AhYpJLCJfI/\n3/cIPMVBo3mR9+GRt91AzYSiDLrGjWeuRtiKondJAQKBgQDwHGcXo49lB7ds77h4\ndrDQtmuMeZVCUK+CMWBwP8yLh8ERwMo4OfbCedal50Kjrq+ZNktccH4l1uyI++ox\ngy8RAU5dVrydC5y6jzU7Ks3DkOvZtW5h0yw56gSnIidFk2iWom9GWpGwg/inhRml\nR9n0BXPqN8H/yKHdJM4Z2njPgQKBgQDAav0RzGQoMXM6Aqojoj3gOsUhOh5Tx6Mu\nMFc3OzSvmoA4xEbPCN1HA3Gn26lu4dQktZxhi1wXaJgoM/cqXYAMEOZjODshgZiw\nsdZqFheZ2NBcuTOk/8k7jst7rSwk4BWmAqMUU8/l9pgCUoJFyZVqPhzl+CQlHE9d\nEXY1t/w0QwKBgBU7PbZuZQiW9RYx4Erum9Xou3vRaGxTvCE0AoYKbijMWTsbpAXy\nwioSIfPLji3xDV/r2CAVZmIsLgAy3lOAeRH03pwMRmNQmow4i4lu0IEBeIlorJkD\n1j5MvhqVP4m8bhwbwuEisw07rioJ7+mYf+I+9S/5vDLE5+MpFPxeQB6BAoGBALpm\n6sJTPrOxM+7+pdPfWBHg3RdTNg3zWCFmsxbORDvZcF2NxwrJi5M/wtrZ8Ul5fAoT\n5WqZlp0WtlA8BzUDXwhRVt7HmoDbCxAhN5WN0U84uqEYyO8O2+LWckldeWY/rrkj\n1NfcWYptWNTnGUyB/Dzv7w7ZVCqfQkLmp51invABAoGAXf3p0Gv0JX57IsBz4c6n\nXLp6yaVMNPaOKqEkU5TB0uyBADx+S551PSGtzhfcqzCaFLG1cUh/Y8m4NMRxgNNU\nLCIFSs8tahFIl+zEsP6PgWF+wxiQqKHlTgpOPli105yUG9IWJfqeRhTjFxkBYB5k\nTZq9ZaBPvKfyxrh0Nmwyz9w=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-fbsvc@stexpremium-b76b8.iam.gserviceaccount.com",
-  "client_id": "115960002062301606812",
+  "project_id": "ff-espor-360b5",
+  "private_key_id": "911e413db0376b8f49723b172fc4460e06",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANw0BAQEFAASCBKkwggSlAgEAAoIBAQDV50Loyr4Lzr7F\nVMp6Cz3kQdbMThRbO0XVe8GtBzltqoetpOfrLin4htYFeIDf9xpMRgTiDixqpJhs\nto0N9F06IpvImDnK3t2jc2ZT83WuKUQmhLorC9TBymZNjNVFmM6hsBx5K2ko72Eu\n5XKpytnIbr6+4lRg/yG/MMY8Vq4uvvpyZoBECyk/+KKkD23/l8gGDvpsxdLPt/0t\nmZcS3uG5Yo4K2ZX6D2/QdDQKOwPdRkcQHiWC+comhluVN4lJmrs8CWifcSbnwJED\nLVCIOjyZEkBwTQlqk/KTAoZ2HNtxGSZ8VjbIqot2ClAkXS9OBvbQw/EyGqOg5ZXs\nHcvfkNkHAgMBAAECggEAFZ+AKwo7tfPbYxVUNowmYImrThHiiupt/8u342bkjkp7\n1rjh3OtYwM/YmMr6tClFlkpJuhRWtx0Wb37wuWVnezX+a4O/69slqp1Czd/BmK6B\nPieSrkFO65wrRVGkSZnN4Zhs+G7D/ahdOaFmOvXPmCxhyegVQYzo+2vRzk2w4/ap\nB5XCT0n/c3dQA+7vesp+DKowMpRaxC/3ftjoJeRhTDJ9YgEYMrD4lVhPfj4ybI9W\nNW259rjO3f4+ahCr6CufGTVVOO68WtsqkgZo6uL99j7hRNzoeXVxGnDoF0snJi7f\nc/HxDxxh1VrwnUUwK01FoKxZDmAcpE46bjsAogzA4QKBgQDtiVN6KDJ3v0M2k4+3\n+yq+n+mN618/P+spaQ5DTnHkM2x4TzSAhf+vF50zB6sexD6U/wxk0MUKft0Ht8S2\nkWIkO/dTSI/UkUK3b87xKIXPkhh0zot2CW2ChQzcFbKL+dP5GAM+WPaFD6ufcqgu\nKi88ODzjvsjD77pYtTWiAJjU1wKBgQDmh6rP0MrycPO7dpd1pq7Fp4S4GOSIzGZ6\nZanudP89uSF+24Fy0cyfNSdYjN89Ie1GEp4VYYgJd8fC6Ka4QZwet0DckJLUYd7m\noQxqh5/9iY0xYogkMZXvdcn65dXBXjrL+9J8virFw0XYSyj9QcXXMVEoeLkfjOO5\nUDNJtaVnUQKBgQCAX/Zwj6bu1rxhk5BZs3Gfglc8LxfT3Bygzbk6oPumhDA8OTo7\nt6++ljmMKbnOr+rOpaSyG65SBMw57pRuwtXSlWIObanmDPeMoe2qoebnjqKPBk2S\n5nd70aJok4ViZwurlNGz8WqR8S0kyFeiU4QhvJcT0rk4Q6hnZs/slPwEEwKBgQCq\n8U0LPwNO1c0WZHEZb9lHfdnffa3xdshC2KIyzZT7Ww1oeTK7RrFaGVsswYFEXqUI\nggOxTRpIEwcRE92U4in3aOHy7E3EqTJViHShhiJwKhCF30+erxpEb+6vWsCv28Tz\nv68siwNClHN1WP5zFdOzp8FLpoF30MyIfN0bOlQFkQKBgQDgli7tiMWKu6Zby2T6\nxas+urjnT6bExKfNjofdrxJR7Fo8LkfkyNKuq2EMKYZdH7ywCsugfMAq5cQYen4w\n7rb8LKEBX1S5LDhbhkc0d6HvNV6JGbh36MewGUoOZCko9mNAKriGPKPtm6hZZrmQ\np+lIdCIFnZX5K221LYH0Z/xzsw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@ff-esports-360b5.iam.gserviceaccount.com",
+  "client_id": "1117336217825755",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40stexpremium-b76b8.iam.gserviceaccount.com",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40ff-sps-360b5.iam.gserviceaccount.com",
   "universe_domain": "googleapis.com"
 }
 db_firestore = None
@@ -147,7 +147,7 @@ def restore_from_firestore():
     if not db_firestore: return
     try:
         # ১. অ্যাডমিন কনফিগ রি-স্টোর
-        cfg_doc = db_firestore.collection("Fire_System").document("Bot_Config").get()
+        cfg_doc = db_firestore.collection("DXA_System").document("Bot_Config").get()
         if cfg_doc.exists:
             data = cfg_doc.to_dict()
             if "dxa_config" in data: admin_db["dxa_config"] = data["dxa_config"]
@@ -160,7 +160,7 @@ def restore_from_firestore():
             if "banned_users" in data: admin_db["banned_users"] = data["banned_users"]
         
         # ২. ইউজার ব্যালেন্স ও OTP 리-স্টোর
-        users_doc = db_firestore.collection("Fire_System").document("Users_Data").get()
+        users_doc = db_firestore.collection("DXA_System").document("Users_Data").get()
         if users_doc.exists:
             data = users_doc.to_dict()
             if "active_users" in data:
@@ -172,7 +172,7 @@ def restore_from_firestore():
         save_admin_db()
         
         # ৩. সার্ভিস (Service Management) রি-স্টোর
-        services_doc = db_firestore.collection("Fire_System").document("Services_Data").get()
+        services_doc = db_firestore.collection("DXA_System").document("Services_Data").get()
         if services_doc.exists:
             srv_data = services_doc.to_dict()
             if "services" in srv_data:
@@ -180,7 +180,7 @@ def restore_from_firestore():
                     json.dump(srv_data["services"], f, indent=2, ensure_ascii=False)
                     
         # ৪. প্যানেল (Panel Management) রি-স্টোর
-        panels_doc = db_firestore.collection("Fire_System").document("Panels_Data").get()
+        panels_doc = db_firestore.collection("DXA_System").document("Panels_Data").get()
         if panels_doc.exists:
             pnl_data = panels_doc.to_dict()
             if "panels" in pnl_data:
@@ -209,7 +209,7 @@ def sync_essential_data_to_firestore():
                     "otp_count": data.get("otp_count", 0)
                 }
         
-        db_firestore.collection("Fire_System").document("Users_Data").set({
+        db_firestore.collection("DXA_System").document("Users_Data").set({
             "total_users": len(admin_db.get("users", [])),
             "active_users": clean_stats,
             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -227,20 +227,20 @@ def sync_essential_data_to_firestore():
                 "getMessageUrl": p.get("getMessageUrl", "")
             })
             
-        db_firestore.collection("fire_System").document("Panels_Data").set({
+        db_firestore.collection("DXA_System").document("Panels_Data").set({
             "panels": clean_panels,
             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         })
         
         # 3. Services & Countries
         services_dict = load_services()
-        db_firestore.collection("fire_System").document("Services_Data").set({
+        db_firestore.collection("DXA_System").document("Services_Data").set({
             "services": services_dict,
             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         })
         
         # 4. Admin Config
-        db_firestore.collection("fire_System").document("Bot_Config").set({
+        db_firestore.collection("DXA_System").document("Bot_Config").set({
             "dxa_config": admin_db.get("dxa_config", {}),
             "search_cfg": admin_db.get("search_cfg", {}),
             "admins": admin_db.get("admins", []),
@@ -268,348 +268,42 @@ local_raw_logs_cache = {} # 🚀 Cumulative logs to prevent data loss
 
 # Mapped country metadata
 shortCountryCodes = {
-    'AF': {'name': 'Afghanistan', 'flag': '🇦🇫'},
-    'AL': {'name': 'Albania', 'flag': '🇦🇱'},
-    'DZ': {'name': 'Algeria', 'flag': '🇩🇿'},
-    'AD': {'name': 'Andorra', 'flag': '🇦🇩'},
-    'AO': {'name': 'Angola', 'flag': '🇦🇴'},
-    'AG': {'name': 'Antigua and Barbuda', 'flag': '🇦🇬'},
-    'AR': {'name': 'Argentina', 'flag': '🇦🇷'},
-    'AM': {'name': 'Armenia', 'flag': '🇦🇲'},
-    'AU': {'name': 'Australia', 'flag': '🇦🇺'},
-    'AT': {'name': 'Austria', 'flag': '🇦🇹'},
-    'AZ': {'name': 'Azerbaijan', 'flag': '🇦🇿'},
-
-    'BS': {'name': 'Bahamas', 'flag': '🇧🇸'},
-    'BH': {'name': 'Bahrain', 'flag': '🇧🇭'},
-    'BD': {'name': 'Bangladesh', 'flag': '🇧🇩'},
-    'BB': {'name': 'Barbados', 'flag': '🇧🇧'},
-    'BY': {'name': 'Belarus', 'flag': '🇧🇾'},
-    'BE': {'name': 'Belgium', 'flag': '🇧🇪'},
-    'BZ': {'name': 'Belize', 'flag': '🇧🇿'},
-    'BJ': {'name': 'Benin', 'flag': '🇧🇯'},
-    'BT': {'name': 'Bhutan', 'flag': '🇧🇹'},
-    'BO': {'name': 'Bolivia', 'flag': '🇧🇴'},
-    'BA': {'name': 'Bosnia and Herzegovina', 'flag': '🇧🇦'},
-    'BW': {'name': 'Botswana', 'flag': '🇧🇼'},
-    'BR': {'name': 'Brazil', 'flag': '🇧🇷'},
-    'BN': {'name': 'Brunei', 'flag': '🇧🇳'},
-    'BG': {'name': 'Bulgaria', 'flag': '🇧🇬'},
-    'BF': {'name': 'Burkina Faso', 'flag': '🇧🇫'},
-    'BI': {'name': 'Burundi', 'flag': '🇧🇮'},
-
-    'KH': {'name': 'Cambodia', 'flag': '🇰🇭'},
+    'CI': {'name': "Côte d'Ivoire (Ivory Coast)", 'flag': '🇨🇮'},
     'CM': {'name': 'Cameroon', 'flag': '🇨🇲'},
-    'CA': {'name': 'Canada', 'flag': '🇨🇦'},
-    'CV': {'name': 'Cape Verde', 'flag': '🇨🇻'},
+    'TG': {'name': 'Togo', 'flag': '🇹🇬'},
+    'MG': {'name': 'Madagascar', 'flag': '🇲🇬'},
+    'BJ': {'name': 'Benin', 'flag': '🇧🇯'},
+    'GN': {'name': 'Guinea', 'flag': '🇬🇳'},
+    'GA': {'name': 'Gabon', 'flag': '🇬🇦'},
     'CF': {'name': 'Central African Republic', 'flag': '🇨🇫'},
-    'TD': {'name': 'Chad', 'flag': '🇹🇩'},
-    'CL': {'name': 'Chile', 'flag': '🇨🇱'},
-    'CN': {'name': 'China', 'flag': '🇨🇳'},
-    'CO': {'name': 'Colombia', 'flag': '🇨🇴'},
-    'KM': {'name': 'Comoros', 'flag': '🇰🇲'},
     'CG': {'name': 'Congo', 'flag': '🇨🇬'},
     'CD': {'name': 'DR Congo', 'flag': '🇨🇩'},
-    'CR': {'name': 'Costa Rica', 'flag': '🇨🇷'},
-    'CI': {'name': "Côte d'Ivoire (Ivory Coast)", 'flag': '🇨🇮'},
-    'HR': {'name': 'Croatia', 'flag': '🇭🇷'},
-    'CU': {'name': 'Cuba', 'flag': '🇨🇺'},
-    'CY': {'name': 'Cyprus', 'flag': '🇨🇾'},
-    'CZ': {'name': 'Czech Republic', 'flag': '🇨🇿'},
-
-    'DK': {'name': 'Denmark', 'flag': '🇩🇰'},
-    'DJ': {'name': 'Djibouti', 'flag': '🇩🇯'},
-    'DM': {'name': 'Dominica', 'flag': '🇩🇲'},
-    'DO': {'name': 'Dominican Republic', 'flag': '🇩🇴'},
-
-    'EC': {'name': 'Ecuador', 'flag': '🇪🇨'},
-    'EG': {'name': 'Egypt', 'flag': '🇪🇬'},
-    'SV': {'name': 'El Salvador', 'flag': '🇸🇻'},
-    'GQ': {'name': 'Equatorial Guinea', 'flag': '🇬🇶'},
-    'ER': {'name': 'Eritrea', 'flag': '🇪🇷'},
-    'EE': {'name': 'Estonia', 'flag': '🇪🇪'},
-    'SZ': {'name': 'Eswatini', 'flag': '🇸🇿'},
-    'ET': {'name': 'Ethiopia', 'flag': '🇪🇹'},
-
-    'FJ': {'name': 'Fiji', 'flag': '🇫🇯'},
-    'FI': {'name': 'Finland', 'flag': '🇫🇮'},
-    'FR': {'name': 'France', 'flag': '🇫🇷'},
-
-    'GA': {'name': 'Gabon', 'flag': '🇬🇦'},
-    'GM': {'name': 'Gambia', 'flag': '🇬🇲'},
-    'GE': {'name': 'Georgia', 'flag': '🇬🇪'},
-    'DE': {'name': 'Germany', 'flag': '🇩🇪'},
-    'GH': {'name': 'Ghana', 'flag': '🇬🇭'},
-    'GR': {'name': 'Greece', 'flag': '🇬🇷'},
-    'GD': {'name': 'Grenada', 'flag': '🇬🇩'},
-    'GT': {'name': 'Guatemala', 'flag': '🇬🇹'},
-    'GN': {'name': 'Guinea', 'flag': '🇬🇳'},
-    'GW': {'name': 'Guinea-Bissau', 'flag': '🇬🇼'},
-    'GY': {'name': 'Guyana', 'flag': '🇬🇾'},
-
-    'HT': {'name': 'Haiti', 'flag': '🇭🇹'},
-    'HN': {'name': 'Honduras', 'flag': '🇭🇳'},
-    'HU': {'name': 'Hungary', 'flag': '🇭🇺'},
-
-    'IS': {'name': 'Iceland', 'flag': '🇮🇸'},
-    'IN': {'name': 'India', 'flag': '🇮🇳'},
-    'ID': {'name': 'Indonesia', 'flag': '🇮🇩'},
-    'IR': {'name': 'Iran', 'flag': '🇮🇷'},
-    'IQ': {'name': 'Iraq', 'flag': '🇮🇶'},
-    'IE': {'name': 'Ireland', 'flag': '🇮🇪'},
-    'IL': {'name': 'Israel', 'flag': '🇮🇱'},
-    'IT': {'name': 'Italy', 'flag': '🇮🇹'},
-
-    'JM': {'name': 'Jamaica', 'flag': '🇯🇲'},
-    'JP': {'name': 'Japan', 'flag': '🇯🇵'},
-    'JO': {'name': 'Jordan', 'flag': '🇯🇴'},
-
-    'KZ': {'name': 'Kazakhstan', 'flag': '🇰🇿'},
-    'KE': {'name': 'Kenya', 'flag': '🇰🇪'},
-    'KI': {'name': 'Kiribati', 'flag': '🇰🇮'},
-    'KW': {'name': 'Kuwait', 'flag': '🇰🇼'},
-    'KG': {'name': 'Kyrgyzstan', 'flag': '🇰🇬'},
-
-    'LA': {'name': 'Laos', 'flag': '🇱🇦'},
-    'LV': {'name': 'Latvia', 'flag': '🇱🇻'},
-    'LB': {'name': 'Lebanon', 'flag': '🇱🇧'},
-    'LS': {'name': 'Lesotho', 'flag': '🇱🇸'},
-    'LR': {'name': 'Liberia', 'flag': '🇱🇷'},
-    'LY': {'name': 'Libya', 'flag': '🇱🇾'},
-    'LI': {'name': 'Liechtenstein', 'flag': '🇱🇮'},
-    'LT': {'name': 'Lithuania', 'flag': '🇱🇹'},
-    'LU': {'name': 'Luxembourg', 'flag': '🇱🇺'},
-    'MG': {'name': 'Madagascar', 'flag': '🇲🇬'},
-    'MW': {'name': 'Malawi', 'flag': '🇲🇼'},
-    'MY': {'name': 'Malaysia', 'flag': '🇲🇾'},
-    'MV': {'name': 'Maldives', 'flag': '🇲🇻'},
-    'ML': {'name': 'Mali', 'flag': '🇲🇱'},
-    'MT': {'name': 'Malta', 'flag': '🇲🇹'},
-    'MH': {'name': 'Marshall Islands', 'flag': '🇲🇭'},
-    'MR': {'name': 'Mauritania', 'flag': '🇲🇷'},
-    'MU': {'name': 'Mauritius', 'flag': '🇲🇺'},
-    'MX': {'name': 'Mexico', 'flag': '🇲🇽'},
-    'FM': {'name': 'Micronesia', 'flag': '🇫🇲'},
-    'MD': {'name': 'Moldova', 'flag': '🇲🇩'},
-    'MC': {'name': 'Monaco', 'flag': '🇲🇨'},
-    'MN': {'name': 'Mongolia', 'flag': '🇲🇳'},
-    'ME': {'name': 'Montenegro', 'flag': '🇲🇪'},
-    'MA': {'name': 'Morocco', 'flag': '🇲🇦'},
-    'MZ': {'name': 'Mozambique', 'flag': '🇲🇿'},
-    'MM': {'name': 'Myanmar', 'flag': '🇲🇲'},
-
-    'NA': {'name': 'Namibia', 'flag': '🇳🇦'},
-    'NR': {'name': 'Nauru', 'flag': '🇳🇷'},
-    'NP': {'name': 'Nepal', 'flag': '🇳🇵'},
-    'NL': {'name': 'Netherlands', 'flag': '🇳🇱'},
-    'NZ': {'name': 'New Zealand', 'flag': '🇳🇿'},
-    'NI': {'name': 'Nicaragua', 'flag': '🇳🇮'},
-    'NE': {'name': 'Niger', 'flag': '🇳🇪'},
-    'NG': {'name': 'Nigeria', 'flag': '🇳🇬'},
-    'KP': {'name': 'North Korea', 'flag': '🇰🇵'},
-    'MK': {'name': 'North Macedonia', 'flag': '🇲🇰'},
-    'NO': {'name': 'Norway', 'flag': '🇳🇴'},
-
-    'OM': {'name': 'Oman', 'flag': '🇴🇲'},
-
-    'PK': {'name': 'Pakistan', 'flag': '🇵🇰'},
-    'PW': {'name': 'Palau', 'flag': '🇵🇼'},
-    'PA': {'name': 'Panama', 'flag': '🇵🇦'},
-    'PG': {'name': 'Papua New Guinea', 'flag': '🇵🇬'},
-    'PY': {'name': 'Paraguay', 'flag': '🇵🇾'},
-    'PE': {'name': 'Peru', 'flag': '🇵🇪'},
-    'PH': {'name': 'Philippines', 'flag': '🇵🇭'},
-    'PL': {'name': 'Poland', 'flag': '🇵🇱'},
-    'PT': {'name': 'Portugal', 'flag': '🇵🇹'},
-
-    'QA': {'name': 'Qatar', 'flag': '🇶🇦'},
-
-    'RO': {'name': 'Romania', 'flag': '🇷🇴'},
-    'RU': {'name': 'Russia', 'flag': '🇷🇺'},
-    'RW': {'name': 'Rwanda', 'flag': '🇷🇼'},
-
-    'KN': {'name': 'Saint Kitts and Nevis', 'flag': '🇰🇳'},
-    'LC': {'name': 'Saint Lucia', 'flag': '🇱🇨'},
-    'VC': {'name': 'Saint Vincent and the Grenadines', 'flag': '🇻🇨'},
-    'WS': {'name': 'Samoa', 'flag': '🇼🇸'},
-    'SM': {'name': 'San Marino', 'flag': '🇸🇲'},
-    'ST': {'name': 'Sao Tome and Principe', 'flag': '🇸🇹'},
-    'SA': {'name': 'Saudi Arabia', 'flag': '🇸🇦'},
     'SN': {'name': 'Senegal', 'flag': '🇸🇳'},
-    'RS': {'name': 'Serbia', 'flag': '🇷🇸'},
-    'SC': {'name': 'Seychelles', 'flag': '🇸🇨'},
-    'SL': {'name': 'Sierra Leone', 'flag': '🇸🇱'},
-    'SG': {'name': 'Singapore', 'flag': '🇸🇬'},
-    'SK': {'name': 'Slovakia', 'flag': '🇸🇰'},
-    'SI': {'name': 'Slovenia', 'flag': '🇸🇮'},
-    'SB': {'name': 'Solomon Islands', 'flag': '🇸🇧'},
-    'SO': {'name': 'Somalia', 'flag': '🇸🇴'},
-    'ZA': {'name': 'South Africa', 'flag': '🇿🇦'},
-    'KR': {'name': 'South Korea', 'flag': '🇰🇷'},
-    'SS': {'name': 'South Sudan', 'flag': '🇸🇸'},
-    'ES': {'name': 'Spain', 'flag': '🇪🇸'},
-    'LK': {'name': 'Sri Lanka', 'flag': '🇱🇰'},
-    'SD': {'name': 'Sudan', 'flag': '🇸🇩'},
-    'SR': {'name': 'Suriname', 'flag': '🇸🇷'},
-    'SE': {'name': 'Sweden', 'flag': '🇸🇪'},
-    'CH': {'name': 'Switzerland', 'flag': '🇨🇭'},
-    'SY': {'name': 'Syria', 'flag': '🇸🇾'},
-
-    'TW': {'name': 'Taiwan', 'flag': '🇹🇼'},
+    'ML': {'name': 'Mali', 'flag': '🇲🇱'},
     'TJ': {'name': 'Tajikistan', 'flag': '🇹🇯'},
-    'TZ': {'name': 'Tanzania', 'flag': '🇹🇿'},
-    'TH': {'name': 'Thailand', 'flag': '🇹🇭'},
-    'TL': {'name': 'Timor-Leste', 'flag': '🇹🇱'},
-    'TG': {'name': 'Togo', 'flag': '🇹🇬'},
-    'TO': {'name': 'Tonga', 'flag': '🇹🇴'},
-    'TT': {'name': 'Trinidad and Tobago', 'flag': '🇹🇹'},
-    'TN': {'name': 'Tunisia', 'flag': '🇹🇳'},
-    'TR': {'name': 'Turkey', 'flag': '🇹🇷'},
-    'TM': {'name': 'Turkmenistan', 'flag': '🇹🇲'},
-    'TV': {'name': 'Tuvalu', 'flag': '🇹🇻'},
-
-    'UG': {'name': 'Uganda', 'flag': '🇺🇬'},
-    'UA': {'name': 'Ukraine', 'flag': '🇺🇦'},
-    'AE': {'name': 'United Arab Emirates', 'flag': '🇦🇪'},
-    'GB': {'name': 'United Kingdom', 'flag': '🇬🇧'},
-    'US': {'name': 'United States', 'flag': '🇺🇸'},
-    'UY': {'name': 'Uruguay', 'flag': '🇺🇾'},
-    'UZ': {'name': 'Uzbekistan', 'flag': '🇺🇿'},
-
-    'VU': {'name': 'Vanuatu', 'flag': '🇻🇺'},
-    'VA': {'name': 'Vatican City', 'flag': '🇻🇦'},
-    'VE': {'name': 'Venezuela', 'flag': '🇻🇪'},
-    'VN': {'name': 'Vietnam', 'flag': '🇻🇳'},
-
-    'YE': {'name': 'Yemen', 'flag': '🇾🇪'},
-
-    'ZM': {'name': 'Zambia', 'flag': '🇿🇲'},
-    'ZW': {'name': 'Zimbabwe', 'flag': '🇿🇼'}
+    'BF': {'name': 'Burkina Faso', 'flag': '🇧🇫'},
+    'NE': {'name': 'Niger', 'flag': '🇳🇪'},
+    'TD': {'name': 'Chad', 'flag': '🇹🇩'},
 }
 
 prefixCountryMap = {
-    '1': 'United States 🇺🇸',
-    '7': 'Russia 🇷🇺',
-    '20': 'Egypt 🇪🇬',
-    '27': 'South Africa 🇿🇦',
-    '30': 'Greece 🇬🇷',
-    '31': 'Netherlands 🇳🇱',
-    '32': 'Belgium 🇧🇪',
-    '33': 'France 🇫🇷',
-    '34': 'Spain 🇪🇸',
-    '36': 'Hungary 🇭🇺',
-    '39': 'Italy 🇮🇹',
-    '40': 'Romania 🇷🇴',
-    '41': 'Switzerland 🇨🇭',
-    '43': 'Austria 🇦🇹',
-    '44': 'United Kingdom 🇬🇧',
-    '45': 'Denmark 🇩🇰',
-    '46': 'Sweden 🇸🇪',
-    '47': 'Norway 🇳🇴',
-    '48': 'Poland 🇵🇱',
-    '49': 'Germany 🇩🇪',
-    '51': 'Peru 🇵🇪',
-    '52': 'Mexico 🇲🇽',
-    '53': 'Cuba 🇨🇺',
-    '54': 'Argentina 🇦🇷',
-    '55': 'Brazil 🇧🇷',
-    '56': 'Chile 🇨🇱',
-    '57': 'Colombia 🇨🇴',
-    '58': 'Venezuela 🇻🇪',
-    '60': 'Malaysia 🇲🇾',
-    '61': 'Australia 🇦🇺',
-    '62': 'Indonesia 🇮🇩',
-    '63': 'Philippines 🇵🇭',
-    '64': 'New Zealand 🇳🇿',
-    '65': 'Singapore 🇸🇬',
-    '66': 'Thailand 🇹🇭',
-    '81': 'Japan 🇯🇵',
-    '82': 'South Korea 🇰🇷',
-    '84': 'Vietnam 🇻🇳',
-    '86': 'China 🇨🇳',
-    '90': 'Turkey 🇹🇷',
-    '91': 'India 🇮🇳',
-    '92': 'Pakistan 🇵🇰',
-    '93': 'Afghanistan 🇦🇫',
-    '94': 'Sri Lanka 🇱🇰',
-    '95': 'Myanmar 🇲🇲',
-    '98': 'Iran 🇮🇷',
-    '211': 'South Sudan 🇸🇸',
-    '212': 'Morocco 🇲🇦',
-    '213': 'Algeria 🇩🇿',
-    '216': 'Tunisia 🇹🇳',
-    '218': 'Libya 🇱🇾',
-    '220': 'Gambia 🇬🇲',
-    '221': 'Senegal 🇸🇳',
-    '222': 'Mauritania 🇲🇷',
-    '223': 'Mali 🇲🇱',
-    '224': 'Guinea 🇬🇳',
-    '225': 'Ivory Coast 🇨🇮',
-    '226': 'Burkina Faso 🇧🇫',
-    '227': 'Niger 🇳🇪',
-    '228': 'Togo 🇹🇬',
-    '229': 'Benin 🇧🇯',
-    '230': 'Mauritius 🇲🇺',
-    '231': 'Liberia 🇱🇷',
-    '232': 'Sierra Leone 🇸🇱',
-    '233': 'Ghana 🇬🇭',
-    '234': 'Nigeria 🇳🇬',
-    '235': 'Chad 🇹🇩',
-    '236': 'Central African Republic 🇨🇫',
     '237': 'Cameroon 🇨🇲',
-    '238': 'Cape Verde 🇨🇻',
-    '239': 'Sao Tome and Principe 🇸🇹',
-    '240': 'Equatorial Guinea 🇬🇶',
+    '225': 'Ivory Coast 🇨🇮',
+    '228': 'Togo 🇹🇬',
+    '261': 'Madagascar 🇲🇬',
+    '229': 'Benin 🇧🇯',
+    '224': 'Guinea 🇬🇳',
     '241': 'Gabon 🇬🇦',
+    '236': 'Central African Republic 🇨🇫',
     '242': 'Congo 🇨🇬',
     '243': 'DR Congo 🇨🇩',
-    '244': 'Angola 🇦🇴',
-    '245': 'Guinea-Bissau 🇬🇼',
-    '248': 'Seychelles 🇸🇨',
-    '249': 'Sudan 🇸🇩',
-    '250': 'Rwanda 🇷🇼',
-    '251': 'Ethiopia 🇪🇹',
-    '252': 'Somalia 🇸🇴',
-    '253': 'Djibouti 🇩🇯',
-    '254': 'Kenya 🇰🇪',
-    '255': 'Tanzania 🇹🇿',
-    '256': 'Uganda 🇺🇬',
-    '257': 'Burundi 🇧🇮',
-    '258': 'Mozambique 🇲🇿',
-    '260': 'Zambia 🇿🇲',
-    '261': 'Madagascar 🇲🇬',
-    '263': 'Zimbabwe 🇿🇼',
-    '264': 'Namibia 🇳🇦',
-    '265': 'Malawi 🇲🇼',
-    '266': 'Lesotho 🇱🇸',
-    '267': 'Botswana 🇧🇼',
-    '268': 'Eswatini 🇸🇿',
-    '269': 'Comoros 🇰🇲',
-    '880': 'Bangladesh 🇧🇩',
-    '886': 'Taiwan 🇹🇼',
-    '960': 'Maldives 🇲🇻',
-    '961': 'Lebanon 🇱🇧',
-    '962': 'Jordan 🇯🇴',
-    '963': 'Syria 🇸🇾',
-    '964': 'Iraq 🇮🇶',
-    '965': 'Kuwait 🇰🇼',
-    '966': 'Saudi Arabia 🇸🇦',
-    '967': 'Yemen 🇾🇪',
-    '968': 'Oman 🇴🇲',
-    '970': 'Palestine 🇵🇸',
-    '971': 'United Arab Emirates 🇦🇪',
-    '972': 'Israel 🇮🇱',
-    '973': 'Bahrain 🇧🇭',
-    '974': 'Qatar 🇶🇦',
-    '975': 'Bhutan 🇧🇹',
-    '976': 'Mongolia 🇲🇳',
-    '977': 'Nepal 🇳🇵',
+    '221': 'Senegal 🇸🇳',
+    '223': 'Mali 🇲🇱',
     '992': 'Tajikistan 🇹🇯',
-    '993': 'Turkmenistan 🇹🇲',
-    '994': 'Azerbaijan 🇦🇿',
-    '995': 'Georgia 🇬🇪',
-    '996': 'Kyrgyzstan 🇰🇬',
-    '998': 'Uzbekistan 🇺🇿'
+    '7992': 'Tajikistan 🇹🇯',
+    '226': 'Burkina Faso 🇧🇫',
+    '227': 'Niger 🇳🇪',
+    '235': 'Chad 🇹🇩',
 }
 
 # ----------------------------------------------------
@@ -750,7 +444,7 @@ def mask_number(num):
     first_3 = num_str[:3]
     last_3 = num_str[-3:]
     # এখানে ❖ যোগ করা হলো
-    return f"{first_3}❖FIRE❖{last_3}"
+    return f"{first_3}❖DXA❖{last_3}"
 
 def extract_otp(text):
     if not text:
@@ -896,12 +590,12 @@ def save_services(services_dict):
 def load_panels():
     default_panels = [
         {
-            "id": "stex_api", "name": "Stex SMS API", "url": "https://api.2oo9.cloud/MXS47FLFX0U/tnevs/@public/api", 
-            "username": "API", "password": "MTEGRC1GNBS", 
-            "getNumberUrl": "https://api.2oo9.cloud/MXS47FLFX0U/tnevs/@public/api/getnum", 
-            "getMessageUrl": "https://api.2oo9.cloud/MXS47FLFX0U/tnevs/@public/api/success-otp", 
-            "trafficUrl": "https://api.2oo9.cloud/MXS47FLFX0U/tnevs/@public/api/console", 
-            "sessionCookie": "'MTEGRC1GNBS", "lastSeenCDRId": None, "status": "Initializing...", "lastSeenGetnumIds": []
+            "id": "stex_api", "name": "Stex SMS API", "url": "https://api.2oo9.cloud/MXS47FLFX0U/tness/@public/api", 
+            "username": "API", "password": "MKJGS2MSZYB", 
+            "getNumberUrl": "https://api.2oo9.cloud/MXS47FLFX0U/tness/@public/api/getnum", 
+            "getMessageUrl": "https://api.2oo9.cloud/MXS47FLFX0U/tness/@public/api/success-otp", 
+            "trafficUrl": "https://api.2oo9.cloud/MXS47FLFX0U/tness/@public/api/console", 
+            "sessionCookie": "MKJGS2MSZYB", "lastSeenCDRId": None, "status": "Initializing...", "lastSeenGetnumIds": []
         }
     ]
     if not os.path.exists(PANELS_FILE):
@@ -1153,10 +847,10 @@ def process_and_send_sms(panel_name, raw_number, app_name, msg_body):
     premium_flag_grp = f"<tg-emoji emoji-id='{f_id_grp}'>{flag}</tg-emoji>"
 
     # নতুন মাস্কিং স্টাইল অনুযায়ী স্প্লিট করা হচ্ছে
-    parts = masked_number.split("❖FIRE❖")
+    parts = masked_number.split("❖DXA❖")
     if len(parts) == 2:
         # ❖SHA❖ দিয়ে নম্বর মাস্কিং করা হলো
-        linked_number = f"{parts[0]}❖😂কোপ😂❖{parts[1]}"
+        linked_number = f"{parts[0]}❖SHA❖{parts[1]}"
     else:
         linked_number = f"{masked_number}"
     
@@ -1207,7 +901,7 @@ def login_to_panel(panel, force=False):
         return False
 
     panel["status"] = "Running (API)"
-    panel["sessionCookie"] = panel.get("password", "MTEGRC1GNBS")
+    panel["sessionCookie"] = panel.get("password", "MKJGS2MSZYB")
     save_panels_to_file(panels)
     return True
 
@@ -1248,7 +942,7 @@ def buy_number(range_val, target_panel_id=None):
         num_url = panel.get("getNumberUrl") or f"{clean_base}/getnum"
         headers = {
             "Content-Type": "application/json",
-            "mauthapi": panel.get("sessionCookie", "MTEGRC1GNBS")
+            "mauthapi": panel.get("sessionCookie", "MKJGS2MSZYB")
         }
         rid = range_val.replace("X", "").replace("*", "").strip()
         
@@ -1394,7 +1088,7 @@ def render_traffic_home(chat_id, message_id=None):
         services_with_counts.sort(key=lambda x: x[1], reverse=True)
 
         if not services_with_counts:
-            message_text += "<i>No active traffic recorded in the last 10 minutes on FIRE.</i>"
+            message_text += "<i>No active traffic recorded in the last 10 minutes on DXA.</i>"
         else:
             is_first = True
             # ডাইনামিক ইনলাইন বাটনের ইমোজি আইডি
@@ -1549,7 +1243,7 @@ def search_number_otp(chat_id, query):
         session = get_session(panel["id"])
 
         get_url = panel.get("getMessageUrl") or f"{get_clean_base_url(panel, panel['url'])}/success-otp"
-        headers = {"mauthapi": panel.get("sessionCookie", "MTEGRC1GNBS")}
+        headers = {"mauthapi": panel.get("sessionCookie", "MKJGS2MSZYB")}
         res = session.get(get_url, headers=headers, timeout=20)
         
         if res.status_code == 200:
@@ -1557,7 +1251,7 @@ def search_number_otp(chat_id, query):
             otps = data.get("data", {}).get("otps", [])
             numbers = [{"number": i.get("number"), "message": i.get("message"), "app_name": "OTP"} for i in otps]
         else:
-            send_bot_message(chat_id, f"❌ api search error: {res.status_code}")
+            send_bot_message(chat_id, f"❌ Stex API search error: {res.status_code}")
             return
 
         if isinstance(numbers, list):
@@ -1759,8 +1453,8 @@ def render_admin_developer(chat_id, message_id):
         "╔═══════════╗\n"
         f"      {get_pemoji('dxa', '😒')} <b>DEVELOPER</b> {get_pemoji('dxa', '😒')}\n"
         "╚═══════════╝\n"
-        f"{get_pemoji('user', '👤')} ➤ 𝐍𝐚𝐦𝐞 : <a href='https://t.me/fireotpbotofficials'>SANTO</a> {get_pemoji('done', '✅')}\n\n"
-        f"{get_pemoji('user', '👤')} ➤ 𝐍𝐢𝐜𝐤𝐍𝐚𝐦𝐞 : SANTO\n\n"
+        f"{get_pemoji('user', '👤')} ➤ 𝐍𝐚𝐦𝐞 : <a href='https://t.me/SH_Official_Admin'>𝗔𝗟𝗜𝗙 𝗦𝗛𝗘𝗜𝗞𝗛</a> {get_pemoji('done', '✅')}\n\n"
+        f"{get_pemoji('user', '👤')} ➤ 𝐍𝐢𝐜𝐤𝐍𝐚𝐦𝐞 : Asik\n\n"
         "📍 ➤ 𝐂𝐨𝐮𝐧𝐭𝐫𝐲 : Bangladesh\n\n"
         f"{get_pemoji('world', '🌐')} ➤ 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧 : Islam\n\n"
         "🔹 ➤ 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : বাংলা | English | Hindi\n\n"
@@ -2232,7 +1926,7 @@ def render_panel_details(chat_id, message_id, p_idx):
     gm_url = panel.get('getMessageUrl') or f"{clean_base}/mapi/v1/mdashboard/getnum/info"
     tr_url = panel.get('trafficUrl') or f"{clean_base}/mapi/v1/mdashboard/console/info"
 
-    api_key = panel.get('password', 'MTEGRC1GNBS')
+    api_key = panel.get('password', 'MKJGS2MSZYB')
     text = (
         f"<tg-emoji emoji-id='5420155432272438703'>⚙️</tg-emoji> <b>API CONFIGURATION</b>\n"
         f"━━━━━━━━━━━━━━━━━━\n"
@@ -2271,7 +1965,7 @@ def render_admin_dxa_menu(chat_id, message_id):
     max_c = cfg.get("max_concurrent", 3)
     cd = cfg.get("cooldown", 0)
     
-    text = f"{get_pemoji('gem', '💎')} <b>MANAGE FIRE (Withdrawal System)</b>\n━━━━━━━━━━━━━━━━━━\n"
+    text = f"{get_pemoji('gem', '💎')} <b>MANAGE DXA (Withdrawal System)</b>\n━━━━━━━━━━━━━━━━━━\n"
     text += f"{get_pemoji('dashboard', '📊')} <b>Withdraw Group:</b> <code>{escape_html(w_grp) if w_grp else 'Not Set'}</code>\n"
     text += f"{get_pemoji('fire', '🔥')} <b>OTP Reward:</b> <code>{rew} ৳</code>\n"
     text += f"{get_pemoji('otp', '🔐')} <b>Min Withdraw:</b> <code>{m_wd} ৳</code>\n"
@@ -2699,7 +2393,7 @@ def handle_callback_query(callback_query):
          answer_callback(callback_id, "Checking Force Join...")
          if check_force_join(chat_id, message_id):
              call_telegram("deleteMessage", {"chat_id": chat_id, "message_id": message_id})
-             send_bot_message(chat_id, "✅ <b>Verification Successful!</b>\nWelcome to FIRE Otp Bot.", get_bot_menu_keyboard(chat_id))
+             send_bot_message(chat_id, "✅ <b>Verification Successful!</b>\nWelcome to DXA Bot.", get_bot_menu_keyboard(chat_id))
 
     elif data == "adm_fj_menu":
          user_conversations.pop(chat_id, None) # 🛠️ চ্যানেল লিংক দেওয়ার স্টেট ক্লিয়ার করা হলো
@@ -2725,7 +2419,7 @@ def handle_callback_query(callback_query):
     elif data == "adm_fj_add":
          answer_callback(callback_id, "Send Channel Link...")
          user_conversations[chat_id] = "waiting_fj_channel"
-         text = "🔗 <b>Add Force Join Channel</b>\n\nPlease send the channel username (e.g., <code>@fireotpbotofficials</code>) or an invite link."
+         text = "🔗 <b>Add Force Join Channel</b>\n\nPlease send the channel username (e.g., <code>@dxa_admin</code>) or an invite link."
          edit_bot_message(chat_id, message_id, text, {"inline_keyboard": [[{"text": " Back", "callback_data": "adm_fj_menu", "style": "danger", "icon_custom_emoji_id": "5267490665117275176"}]]})
 
     elif data == "adm_admin_menu":
@@ -3068,7 +2762,7 @@ def handle_callback_query(callback_query):
          answer_callback(callback_id)
          user_conversations[chat_id] = "add_fwd_grp"
          user_prompts[chat_id] = message_id
-         text = f"{get_pemoji('note', '📝')} <b>Add Forward Group</b>\n\nSend the Chat ID (e.g., <code>-1002580148770</code>) where OTPs should be forwarded."
+         text = f"{get_pemoji('note', '📝')} <b>Add Forward Group</b>\n\nSend the Chat ID (e.g., <code>-100123456789</code>) where OTPs should be forwarded."
          edit_bot_message(chat_id, message_id, text, {"inline_keyboard": [[{"text": " Back", "callback_data": "adm_otp_grp_menu", "style": "danger", "icon_custom_emoji_id": "5267490665117275176"}]]})
 
     elif data.startswith("adm_fwd_view:"):
@@ -3090,7 +2784,7 @@ def handle_callback_query(callback_query):
          answer_callback(callback_id)
          user_conversations[chat_id] = f"add_fwd_btn:{idx}"
          user_prompts[chat_id] = message_id
-         text = f"{get_pemoji('note', '📝')} <b>Add Custom Button</b>\n\nSend the button Text and URL separated by a pipe (`|`).\nExample:\n<code>Support|https://t.me/fireotpsupport_bot</code>"
+         text = f"{get_pemoji('note', '📝')} <b>Add Custom Button</b>\n\nSend the button Text and URL separated by a pipe (`|`).\nExample:\n<code>Support|https://t.me/admin</code>"
          edit_bot_message(chat_id, message_id, text, {"inline_keyboard": [[{"text": " Back", "callback_data": f"adm_fwd_view:{idx}", "style": "danger", "icon_custom_emoji_id": "5267490665117275176"}]]})
 
     elif data.startswith("adm_fwd_btn_del:"):
@@ -3432,7 +3126,7 @@ def handle_message(msg):
                 f"━━━━━━━━━━━━\n"
                 f"{get_pemoji('gem', '💎')} <b>Amount:</b> {amount} ৳\n"
                 f"{get_pemoji('phone', '📱')} <b>Number:</b> <code>{number}</code>\n"
-                f"<i>It will be processed soon by the FIRE admins.</i>"
+                f"<i>It will be processed soon by the DXA admins.</i>"
             )
             
             cfg = admin_db.get("dxa_config", {})
@@ -3789,7 +3483,7 @@ def handle_message(msg):
     if lower in ["/start", "/help", "/menu"]:
         text_start = (
             "╔═══════════╗\n"
-            f"       {get_pemoji('dashboard', '📊')} <b>FIRE NUMBER BOT</b>\n"
+            f"       {get_pemoji('dashboard', '📊')} <b>NUMBER BOT</b>\n"
             "╚═══════════╝\n"
             f"{get_pemoji('rocket', '🚀')} Welcome to Number & OTP Service\n"
             "━━━━━━━━━━━━\n"
@@ -3965,7 +3659,7 @@ def check_cdrs_for_panel(panel):
         clean_base = get_clean_base_url(panel, baseUrl)
         logs_url = panel.get("trafficUrl") or f"{clean_base}/console"
         otp_url = panel.get("getMessageUrl") or f"{clean_base}/success-otp"
-        headers = {"Content-Type": "application/json", "mauthapi": panel.get("sessionCookie", "MTEGRC1GNBS")}
+        headers = {"Content-Type": "application/json", "mauthapi": panel.get("sessionCookie", "MKJGS2MSZYB")}
         
         # 1. Traffic Fetch
         res = session.get(logs_url, headers=headers, timeout=20)
@@ -4050,14 +3744,14 @@ def monitor_loop():
                 
         except Exception as e:
             logger.error(f"Global panel check monitor loop exception: {e}")
-        time.sleep(2)
+        time.sleep(10)
 
 # ----------------------------------------------------
 # Main Program Entry Point
 # ----------------------------------------------------
 
 def main():
-    logger.info("Initializing API Unified Bot...")
+    logger.info("Initializing Voltx API Unified Bot...")
     
     # Run immediate validation of panel logins
     for panel in panels:
@@ -4068,7 +3762,7 @@ def main():
 
     # Empty old commands in getUpdates queue to prevent old triggers
     call_telegram("getUpdates", {"offset": -1, "timeout": 0})
-    logger.info("FIRE Telegram Long-Polling Engine online and watching.")
+    logger.info("DXA Telegram Long-Polling Engine online and watching.")
 
     offset = None
     while True:
@@ -4094,7 +3788,7 @@ def main():
             break
         except Exception as e:
             logger.error(f"Long poll loop iteration error: {e}")
-            time.sleep(10)
+            time.sleep(5)
 
 if __name__ == "__main__":
     main()
